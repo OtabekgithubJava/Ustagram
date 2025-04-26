@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { VideosComponent } from './components/videos/videos.component';
 import { SocialsComponent } from './components/socials/socials.component';
 import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ExampleComponent } from './components/example/example.component';
 
 @NgModule({
   declarations: [
@@ -32,10 +34,12 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     VideosComponent,
     SocialsComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ExampleComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [

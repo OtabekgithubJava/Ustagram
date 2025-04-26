@@ -1,0 +1,21 @@
+<div class="scrolling-container">
+    <section class="section section-3" #cardSection>
+      <div class="cards-container" [ngClass]="{'fixed': !allCardsVisible, 'unfixed': allCardsVisible}">
+        <div class="card" [@cardAnimation]="cardStates[0]">
+          <h2>Qidirish</h2>
+          <p>Daraja, soha, tajribaga qarab saralash</p>
+          <img src="lupa.png" alt="">
+        </div>
+        <div class="card" [@cardAnimation]="cardStates[1]">
+          <h2>Reklama</h2>
+          <p>Turli sohalarda ishlarni reklama qilish</p>
+          <img src="tools.webp" alt="">
+        </div>
+        <div class="card" [@cardAnimation]="cardStates[2]">
+          <h2>Reyting</h2>
+          <p>Reklama joylash & layklarga ko'ra reyting</p>
+          <img class="layk" src="layk.png" alt="">
+        </div>
+      </div>
+  </section>
+</div>

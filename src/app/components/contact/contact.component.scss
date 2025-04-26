@@ -1,0 +1,34 @@
+.main{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container{
+    margin-bottom: 5%;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.yandex{
+    border-radius: 15px;
+    border: 1px solid rgb(194, 192, 192);
+
+}
+
+.relative{
+    border: 1px solid rgb(194, 192, 192);
+    border-radius: 10px;
+}
+
+.container iframe{
+    border: 1px solid rgb(194, 192, 192);
+    border-radius: 10px;
+}
+
+.textlar{
+    width: 40%;
+}
